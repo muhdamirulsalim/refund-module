@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-brand: #16277a;
+  --color-brand-hover: #1e3399;
+  --color-brand-muted: #eef1fa;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family:
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    sans-serif;
+  @apply bg-brand-muted text-slate-900 antialiased;
+}
